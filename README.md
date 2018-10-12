@@ -1,3 +1,6 @@
+<!-- Copyright (c) 2018 Nikunj Gupta -->
+
+
 # Rescue Net
 
 Current instruments and methods fail at predicting natural calamities like
@@ -5,19 +8,19 @@ earthquake. Tsunami predictions are made about a few hours before which leads
 to problems in evacuation of the targetted area. Due to such shortcomings,
 authorities are not able to take adequate measures to prevent the loss of life.
 A lot of research is undergoing to try and predict such disasters in a timely
-manner. Until then we require a system to minimize the loss of lfe and making
+manner. Until then we require a system to minimize the loss of life and making
 sure that people are safe.
 
 
 ## Team Introduction
 
-The team (_mainCRTStartup) comprises three 2nd year undergraduates currently 
+The team (**_mainCRTStartup**) comprises three 2nd year undergraduates currently 
 pursuing Computer Science and Engineering (CSE) at IIT Roorkee. Their names 
 are as follows:
 
-* Nikunj Gupta
-* Kanav Gupta
-* Rohit Ashiwal
+* __Nikunj Gupta__
+* __Kanav Gupta__
+* __Rohit Ashiwal__
 
 
 ## Project Explanation
