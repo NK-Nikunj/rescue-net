@@ -1,59 +1,48 @@
-<!-- Copyright (c) 2018 Nikunj Gupta -->
-
-
 # Rescue Net
 
-## Abstract
-
-Predicting natural disasters has always been a challenge for researchers around 
-the world. The number of such occurrences are also increasing by the day. Until 
-we find a way to make such deductions deterministic, we will require a robust 
-way to help victims of these disasters.
-
-In this project, we propose a robust way to make communication with victims 
-suffering in the disaster. We aid them by through communication with the 
-concerned authorities responsible for the rescue operation. We present a 
-drone-based solution for communicating with mobile devices.
+Current instruments and methods fail at predicting natural calamities like
+earthquake. Tsunami predictions are made about a few hours before which leads
+to problems in evacuation of the targetted area. Due to such shortcomings,
+authorities are not able to take adequate measures to prevent the loss of life.
+A lot of research is undergoing to try and predict such disasters in a timely
+manner. Until then we require a system to minimize the loss of lfe and making
+sure that people are safe.
 
 
-## Introduction
+## Team Introduction
 
-Our project assumes a few constraints to start with. These are as follows:-
+The team (_mainCRTStartup) comprises three 2nd year undergraduates currently 
+pursuing Computer Science and Engineering (CSE) at IIT Roorkee. Their names 
+are as follows:
 
-* [X] The mobile device (not limited to smartphones) should be switched on and 
-in working conditions. (A better implementation is in works and can be looked 
-into details in the future prospects section)
+* Nikunj Gupta
+* Kanav Gupta
+* Rohit Ashiwal
 
-* [X] The mobile device should be in the range of the drone-based communication 
-device. (This has to be made sure by the authorities responsible for the rescue 
-operation)
 
-* [X] A person must hold on to the mobile device for communication purposes.
+## Project Explanation
 
-Now that we have defined the constraints and produced a general idea, we need 
-to understand how we will integrate them together. We propose to build a drone 
-which with a **long range** `RF signal` emitter. At the same time, we utilize 
-the mobile device as an `RF signal` receiver. A simple flow diagram is as 
-follows:-
-
-![Flowchart](images/flowchart.png)
-
+Our project focuses on the latter. We establish a direct communication between
+the victim and the concerned authorities through 
+`RF transmission and reception`. We use a drone as a long range RF emitter
+and the mobile device as an RF receiver. If the connection is established, we
+share the location and information of the person holding the mobile device.
+This enables the authorities to act upon the situation accordingly. Also,
+rescue authorities will now focus more on areas where communication has been
+established saving there time which would otherwise go in searching in areas
+with potentially no civilian.
 
 ## Proposed Features
 
 ### Location Determination
 
-Knowing the response from the mobile device, we can determine the location of 
-the incoming signal. This will allow for accurate mapping of a person's 
-location. This will help the concerned authorities to dispatch team in an 
-efficient manner.
+An effective connection would enable us to track the victim. This data will
+then be shared directly with the authorities.
 
 ### Identification
 
-Allowing the signal to contain the details of the person will allow 
-identification of people who're suffering in the disaster. This will help the 
-government to correctly identify and act upon it to provide compensation for 
-the loss of life. This will help the families to receive adequate compensation.
+An effective connection would enable us to fetch information about the user.
+This data will then be shared directly with the authorities.
 
 ### Assessment
 
@@ -66,48 +55,3 @@ precisely.
 After being rescued people can then emit signal signifying that they are safe. 
 This will help in conveying the required details to the concerned family 
 members.
-
-
-## Proposed Implementation
-
-The above description will be implemented through this project. A working code 
-with a working video will be made available to prove our work.
-
-koi problem ho to PR bnado
-## Future Prospects
-
-Considering that mobile device batteries are short-lived, we had to reconsider 
-the model on which we proposed the above project. We have found an adequate 
-solution to the above problem as well. Since its implementation is dependent 
-on various external factors, we will refrain from implementing anything in the 
-current version of the project.
-
-### Proposed solution to the short-lived battery
-
-Additional monitoring chip which responds only to the signal transmitted by 
-the drone can be installed. This will ensure privacy as those drones are 
-guaranteed that frequency of operation. At the same time, it is ensured that 
-these chips will be long-lived (anywhere from a few days to a month), thus 
-enabling them to be useful in the above setting.
-
-
-## Team Info
-
-The team comprises three 2nd year undergraduates currently pursuing 
-Computer Science and Engineering (CSE) at IIT Roorkee. Their names are as 
-follows:
-
-* Nikunj Gupta
-* Kanav Gupta
-* Rohit Ashiwal
-
-The team focuses on an innovative solution that can help masses in a catastrophic 
-a situation such as a natural disaster.
-
-
-### EULA
-
-The complete idea and implementation are bound by an MIT Licence (details of 
-the license can be seen [here](./LICENSE)) and the code provided is proprietary 
-with copyrights available in every file. Due credits to the authors should be 
-given when attempting to copy the code.
